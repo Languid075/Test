@@ -1,0 +1,425 @@
+
+/* Swiper 开始 */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-button-next:hover::after{
+    color: #a1a1a1;
+}
+.swiper-button-prev:hover::after{
+    color: #a1a1a1;
+}
+  /* Swiper 结束 */
+
+
+  .main{
+    width: 980px;
+    height: 1700px;   
+    border: 2px solid #d9d9d9;
+    background-color: #ffffff;
+}
+
+  .main-head{
+    width: 100%;
+    height: 251px;
+  }
+  .swiper-ioon ul li{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    color: #888888;
+  }
+  .swiper-ioon ul li:hover{
+    background-color: #f6f7f7;
+  }
+  .swiper-ioon ul li em{
+    float: left;
+    width: 70px;
+    height: 15px;
+    font-family: 'icomoon';
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 25px;
+  }
+  .swiper-ioon ul li strong{
+    width: 70px;
+    height: 15px;
+    margin-top: 16px;
+    float: right;
+    font-weight: normal;
+    font-size: 12px;
+  }
+
+  
+  .main-content{
+    width: 100%;
+    height: 1200px;
+  }
+  .main-content1{
+    width: 95%;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: white;
+  }
+
+  .content1-1{
+    width: 425px;
+    height: 100%;
+    float: left;
+  }
+  .content1-2 dd,
+  .content1-1 dd{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #c20c0c;
+  }
+  .content1-2 dd h3,
+  .content1-1 dd h3{
+    font-weight: normal;
+    float: left;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .content1-1 dd h3:hover {
+    text-decoration: underline;
+  }
+  .content1-2 dd h3:hover {
+    text-decoration: underline;
+  }
+  .content1-2 dd strong,
+  .content1-1 dd strong{
+    float: right;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 25px;
+  }
+  .content1-1 dd strong:hover {
+    text-decoration: underline;
+  }
+  .content1-2 dd strong:hover {
+    text-decoration: underline;
+  }
+
+
+  .tjjm{
+    width: 100%;
+    height: 595px;
+  }
+  .tjjm1 ul,
+  .tjjm ul{
+    border: 1px solid #e2e2e2;
+    border-top: none;
+  }
+  .tjjm ul li{
+    width: 100%;
+    height: 60px;
+    font-size: 12px;
+    position: relative;
+  }
+  .tjjm ul li:nth-child(odd){
+    background-color: white;
+  }
+  .tjjm ul li:nth-child(even){
+    background-color: #f7f7f7;
+  }
+  .tjjm ul li:hover{
+    background-color: #eeeeee;
+  }
+  .tjjm ul li img{
+    float: left;
+    margin: 10px;
+  }
+  .tjjm ul li em{
+    font-family: 'icomoon';
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    margin: 25px;
+    color: #e2e2e5;
+    background-color:rgba(0, 0, 0, .4);
+  }
+  .tjjm ul li:hover em{
+    display: block;
+  }
+  .tjjm1 ul li:hover em{
+    display: block;
+  }
+  .tjjm ul li a{
+    width: 250px;
+    float: left;
+    margin: 10px;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .tjjm ul li a:hover{
+    text-decoration: underline;
+  }
+  .tjjm ul li b{
+    float: left;
+    margin: 33px 0px 0px -260px;
+    color: #999999;
+    font-weight: normal;
+  }
+  .tjjm ul li b:hover{
+    text-decoration: underline;
+  }
+  .tjjm ul li strong{
+    float: left;
+    border: 1px solid #999999;
+    padding: 3px;
+    margin-top: 17px;
+    color: #999999;
+  }
+  .tjjm ul li strong:hover{
+    color: #666666;
+    border-color:  #666666;
+  }
+
+
+
+
+  .content1-2{
+    width: 425px;
+    height: 100%;
+    float: left;
+    margin-left: 73px;
+  }
+
+  .tjjm1{
+    width: 100%;
+    height: 595px;
+  }
+  .tjjm1 ul li{
+    width: 100%;
+    height: 60px;
+    font-size: 12px;
+  }
+  .tjjm1 ul li:nth-child(odd){
+    background-color: white;
+  }
+  .tjjm1 ul li:nth-child(even){
+    background-color: #f7f7f7;
+  }
+  .tjjm1 ul li:hover{
+    background-color: #eeeeee;
+  }
+  .tjjm1 ul li>u{
+    float: left;
+    height: 10px;
+    font-size: 12px;    
+    margin-top: 12px;
+    margin-left: 5px;
+  }  
+  .tjjm1 ul li:nth-child(-n+3) u{
+    color: red;
+  }
+  .tjjm1 ul li:nth-child(n+3) u{
+    color: #999999;
+  }
+  .tjjm1 ul li label{
+    float: left;    
+    height: 20px;
+    margin-top: 30px;
+    margin-left: -13px;
+    color: #999999;
+  }  
+  .tjjm1 ul li img{
+    float: left;
+    margin: 10px;
+    margin-left: 15px;
+  }
+  .tjjm1 ul li em{
+    font-family: 'icomoon';
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    margin: 25px;
+    margin-left: 45px;
+    color: #e2e2e5;
+    background-color:rgba(0, 0, 0, .4);
+  }
+  .tjjm1 ul li a{
+    width: 200px;
+    float: left;
+    margin: 10px;
+    margin-left: 5px;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .tjjm1 ul li a:hover{
+    text-decoration: underline;
+  }
+  .tjjm1 ul li b{
+    width: 200px;
+    float: left;
+    margin: 30px 0px 0px -210px;
+    color: #999999;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .tjjm1 ul li b:hover{
+    text-decoration: underline;
+  }
+  .tjjm1 ul li strong{
+    width: 100px;
+    height: 10px;
+    float: left;
+    border: 1px solid #c6c6c6;
+    margin-top: 17px;
+    border-radius: 8px;
+  }
+  .tjjm1 ul li strong u{
+    display: block;
+    background-color: #c6c6c6;
+    width: 90%;
+    height: 100%;
+  }
+  .tjjm1 ul li strong sub{
+    display: block;
+    background-color: #c6c6c6;
+    width: 80%;
+    height: 100%;
+  }
+  .tjjm1 ul li strong sup{
+    display: block;
+    background-color: #c6c6c6;
+    width: 30%;
+    height: 100%;
+  }
+  .tjjm1 ul li strong em{
+    display: block;
+    background-color: #c6c6c6;
+    width: 10%;
+    height: 100%;
+  }
+  .tjjm1 ul li strong b{
+    display: block;
+    background-color: #c6c6c6;
+    width: 40%;
+    height: 100%;
+  }
+
+
+  .main-content2{
+    width: 95%;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .main-content2 dd{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #c20c0c;
+  }
+  .main-content2 dd h3{
+    float: left;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .main-content2 dd h3:hover{
+    text-decoration: underline;
+  }
+  .main-content2 dd strong{
+    float: right;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+  .main-content2 dd strong:hover{
+    text-decoration: underline;
+  }
+  .yytj ul li{
+    width: 465px;
+    height: 150px;
+    /* background-color: wheat; */
+    float: left;
+    position: relative;
+
+  }
+  .yytj ul li img{
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+  }
+  .yytj ul li h4{
+    /* float: left; */
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 150px;
+  }
+  .yytj ul li h4:hover{
+    text-decoration: underline;
+  }
+  .yytj ul li span{
+    float: left;
+    margin-top: 90px;
+    margin-left: 30px;
+    color: #9b9a9c;
+  }
+
+  .main-content3{
+    width: 95%;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .main-content3 dd{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #c20c0c;
+  }
+  .main-content3 dd h3{
+    float: left;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .main-content3 dd h3:hover{
+    text-decoration: underline;
+  }
+  .main-content3 dd strong{
+    float: right;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+  .main-content3 dd strong:hover{
+    text-decoration: underline;
+  }

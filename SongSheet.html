@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全部歌单  -  歌单 -  网易云音乐</title>
+    <link rel="shortcut icon" href="./wyytubiao.ico">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/京东初始化代码.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/SongSheet.css">
+    <script src="./js/vue.js"></script>
+
+</head>
+<body>
+  
+    <!-- 1.头部 -->
+    <div class="herder">
+      <div class="herder_2">
+          <ul>
+              <li class="wyy"><img src="./images/wyytubiao.jpg" alt=""><a href="index.html"></a></li>
+              <li><a href="index.html">网易云音乐</a></li>
+              <li class="icon"><a href="index.html">发现音乐</a></li>
+              <li class="icon"><a href="">我的音乐</a></li>
+              <li class="icon"><a href="">关注</a></li>
+              <li class="icon"><a href="">商城</a></li>
+              <li class="icon"><a href="">音乐人</a></li>
+              <li class="icon"><a href="">下载客户端</a>
+              <em><img src="./images/hot.png" alt=""></em></li>
+              <li>
+              <i class="icon1"></i><input type="text" value="音乐/视频/电台/用户">
+              </li>
+              <li><a href="">创作者中心</a></li>
+              <li><a href="">登录</a></li>
+          </ul>
+      </div>
+      
+      <div class="herder_3">
+          <div class="herder_3_1">
+            <ul>
+              <i></i>
+              <li><a href="index.html">推荐</a></li>
+              <li><a href="index2.html">排行榜</a></li>
+              <li><a href="SongSheet.html">歌单</a></li>
+              <li><a href="anchor.html">主播电台</a></li>
+              <li><a href="singer.html">歌手</a></li>
+              <li><a href="NewDisc.html">新碟上架</a></li>
+          </ul>
+          </div>
+      </div>
+  </div>
+
+
+    <!-- 2.主体 -->
+    <div class="main w">
+
+      <div class="hezi">
+
+
+     <!-- 2.1 主体top -->
+        <div class="main-top" id="add">
+          <h1>全部</h1>
+          <p @click="flag=!flag">
+            <label>选择分类</label>
+            <strong></strong>
+          </p>
+
+           <div class="drop">
+          
+            <div  v-if="flag" class="textarea_a">
+
+            <dd><b>全部风格</b></dd>
+
+            <div class="drop-a">
+              <div class="drop-a-1">
+                <ol><em></em><strong>语种</strong></ol>
+                <ol><em></em><strong>风格</strong></ol>
+                <ol><em></em><strong>场景</strong></ol>
+                <ol><em></em><strong>情感</strong></ol>
+                <ol><em></em><strong>主题</strong></ol>
+             </div>
+
+            <div class="drop-a-2">
+              <ul>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+              </ul>
+
+
+
+              <ul>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+              </ul>
+
+              <ul>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+              </ul>
+
+              <ul>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+              </ul>
+
+              <ul>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>话语<span>|</span></li>
+                <li>欧美<span>|</span></li>
+                <li>日语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>韩语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+                <li>粤语<span>|</span></li>
+              </ul>
+              
+            </div>
+
+          </div>
+
+
+          </div>
+
+           </div>
+          <sup><a>热门</a></sup>
+         </div>
+
+     <!-- 2.2 主体内容 -->
+
+        <div class="main-content">
+
+            <div class="content-a">
+                <img src="./images/SongSheet (1).jpg" alt="">
+                <strong>
+                  <i></i>
+                  <span>145万</span>
+                  <em></em>
+                </strong>
+                <h5>早睡宝宝丨提升元气的轻快音乐</h5>
+                <p>迷虹灯下的神偷<img src="./images/content (1).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (2).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>97545</span>
+                <em></em>
+              </strong>
+              <h5>春之行・纯音 | 傍花随柳、拾翠踏青</h5>
+              <p>峯哥牛逼<img src="./images/content (2).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (3).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>45525</span>
+                <em></em>
+              </strong>
+              <h5>「蒸汽波/复古风」东京之夜的霓虹美学</h5>
+              <p>丨IIIIIIIIII丨<img src="./images/content (1).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (4).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>245</span>
+                <em></em>
+              </strong>
+              <h5>梦幻电子丨余音缭绕 如醉初醒</h5>
+              <p>Sakura雫</p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (5).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>15万</span>
+                <em></em>
+              </strong>
+              <h5>『万神殿』Wolfgang Woehrle-厄尔庇斯之祈</h5>
+              <p>峯哥牛逼<img src="./images/content (1).png" alt=""></p>
+              </div>
+
+              <div class="content-a">
+                <img src="./images/SongSheet (6).jpg" alt="">
+                <strong>
+                  <i></i>
+                  <span>57489</span>
+                  <em></em>
+                </strong>
+                <h5>正念净心之冥想调适</h5>
+                <p>云乡寻梦人</p>
+              </div>
+
+              <div class="content-a">
+                <img src="./images/SongSheet (7).jpg" alt="">
+                <strong>
+                  <i></i>
+                  <span>2224</span>
+                  <em></em>
+                </strong>
+                <h5>当kawaii遇上电音｜Sweetの糖果❤ </h5>
+                <p>浅羽蓝野<img src="./images/content (4).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (8).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>674543</span>
+                <em></em>
+              </strong>
+              <h5>「蒸汽波」复古未来·disco</h5>
+              <p>DMCzYang9<img src="./images/content (1).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (9).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>15万</span>
+                <em></em>
+              </strong>
+              <h5>拒绝焦虑｜瞬间放松的50首轻音乐</h5>
+              <p>不二叔情感翻译官<img src="./images/content (2).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (10).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>345万</span>
+                <em></em>
+              </strong>
+              <h5>Chillhop丨深夜独享的静谧时光</h5>
+              <p>丨IIIIIIIIII丨<img src="./images/content (2).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (11).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>47866</span>
+                <em></em>
+              </strong>
+              <h5>摇滚夏日祭°｜少年心气，无畏青春</h5>
+              <p>十三逆旅Cobain<img src="./images/content (6).png" alt=""></p>
+              </div>
+
+              <div class="content-a">
+                <img src="./images/SongSheet (12).jpg" alt="">
+                <strong>
+                  <i></i>
+                  <span>3485</span>
+                  <em></em>
+                </strong>
+                <h5>Chill Time丨夏日海风与棕榈树的浪漫遐想</h5>
+                <p>丨IIIIIIIIII丨<img src="./images/content (3).png" alt=""></p>
+              </div>
+
+              <div class="content-a">
+                <img src="./images/SongSheet (13).jpg" alt="">
+                <strong>
+                  <i></i>
+                  <span>745万</span>
+                  <em></em>
+                </strong>
+                <h5>综艺《声生不息》音频 |港乐集结 共享辉煌</h5>
+                <p>网易云音乐<img src="./images/content (1).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (14).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>945万</span>
+                <em></em>
+              </strong>
+              <h5>中国 & 电音篇 | 下年再有新生者</h5>
+              <p>白岑-Se7en<img src="./images/content (6).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (15).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>45321</span>
+                <em></em>
+              </strong>
+              <h5>日落大道｜晚霞棕榈下的复古心绪</h5>
+              <p>NeilShine_10<img src="./images/content (1).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (16).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>77557</span>
+                <em></em>
+              </strong>
+              <h5>E8r【300首适合带上耳机看书刷题纯音】❤</h5>
+              <p>E8rE8r9<img src="./images/content (5).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (17).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>48623</span>
+                <em></em>
+              </strong>
+              <h5>全球顶级酒店爵士乐</h5>
+              <p>黑喜喜乐队<img src="./images/content (1).png" alt=""></p>
+              </div>
+
+              <div class="content-a">
+                <img src="./images/SongSheet (18).jpg" alt="">
+                <strong>
+                  <i></i>
+                  <span>861425</span>
+                  <em></em>
+                </strong>
+                <h5>【超燃战歌】快拿水，我已经燃起来了</h5>
+                <p>这条平凡的狗_QwQ<img src="./images/content (1).png" alt=""></p>
+              </div>
+              <div class="content-a">
+                <img src="./images/SongSheet (19).jpg" alt="">
+                <strong>
+                  <i></i>
+                  <span>845万</span>
+                  <em></em>
+                </strong>
+                <h5>电影黑胶 | 怀旧唱片 岁月如歌</h5>
+                <p>蝶影丛虫<img src="./images/content (1).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (20).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>445万</span>
+                <em></em>
+              </strong>
+              <h5>很chill的R&B歌单 节奏布鲁斯 欧美</h5>
+              <p>alwaysbeROMANTIC<img src="./images/content (1).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (21).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>5472</span>
+                <em></em>
+              </strong>
+              <h5>治愈纯音乐丨你未必万丈光芒 但你温暖有光</h5>
+              <p>角港<img src="./images/content (1).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (22).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>337</span>
+                <em></em>
+              </strong>
+              <h5>「轻音乐」让心静下来的雨声助眠</h5>
+              <p>柠暖鸭<img src="./images/content (1).png" alt=""></p>
+            </div>
+
+            <div class="content-a">
+              <img src="./images/SongSheet (23).jpg" alt="">
+              <strong>
+                <i></i>
+                <span>78235</span>
+                <em></em>
+              </strong>
+              <h5>纯音 / 写作业 / 学习必备歌单</h5>
+              <p>迷虹灯下的神偷<img src="./images/content (1).png" alt=""></p>
+              </div>
+
+              <div class="content-a">
+                <img src="./images/SongSheet (24).jpg" alt="">
+                <strong>
+                  <i></i>
+                  <span>645万</span>
+                  <em></em>
+                </strong>
+                <h5>早睡宝宝丨提升元气的轻快音乐</h5>
+                <p>迷虹灯下的神偷<img src="./images/content (1).png" alt=""></p>
+              </div>
+
+              <div class="content-a">
+                <img src="./images/SongSheet (25).jpg" alt="">
+                <strong>
+                  <i></i>
+                  <span>45万</span>
+                  <em></em>
+                </strong>
+                <h5>攻尽天下（节奏控的古风歌单）</h5>
+                <p>wifi隔壁的蓝牙<img src="./images/content (1).png" alt=""></p>
+              </div>
+      </div>
+
+
+          <!-- 底部按钮 -->
+          <div class="btns">
+            <button><上一页</button>
+            <button class="btns1">1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <span>...</span>
+            <button>15</button>
+            <button>下一页></button>
+          </div> 
+
+      </div>
+
+    </div>
+
+
+   <!-- 3.页尾 -->
+   <div class="footer">
+
+    <div class="footer_left"></div>
+
+    <div class="footer_center">
+
+      <div class="footer_center_a">
+      <ul>
+        <li><a href="">服务条款</a>|</li>
+        <li><a href="">隐私政策</a>|</li>
+        <li><a href="">儿童隐私政策</a>|</li>
+        <li><a href="">版权投诉</a>|</li>
+        <li><a href="">投资者关系</a>|</li>
+        <li><a href="">广告合作</a>|</li>
+        <li><a href="">廉正举报</a>|</li>
+        <li><a href="">联系我们</a></li>
+      </ul>
+
+      <div class="footer_center_2">
+        <span>网易公司版权所有©1997-2022杭州乐读科技有限公司运营:&nbsp;<a href="">浙网文[2021] 1186-054号</a><br></span>
+        <span><a href="">粤B2-20090191-18  工业和信息化部备案管理系统网站&nbsp;&nbsp;</a><a href="">浙公网安备 33010902002564号</a></span>
+        <span><a href="">互联网宗教信息服务许可证：浙（2022）0000120</a></span>
+     </div>
+      
+    </div>
+
+     <div class="footer_center_b">
+        <ol>
+        <em></em>
+        <em></em>
+        <em></em>
+        <em></em>
+        <em></em>
+      </ol>
+
+      <div class="hhhhh">
+        <span>Amped&nbsp;Studio</span>
+        <span>用户认证</span>
+        <span>独立音乐人</span>
+        <span>赞赏</span>
+        <span>视频奖励</span>
+      </div>
+      
+     </div>
+
+
+    </div>
+
+      
+
+    <div class="footer_right"></div>
+
+  </div>
+
+    <script src="./js/public.js"></script>
+
+    <script>
+      var vm = new Vue({
+        el:'#add',
+        data:{
+          flag:false,
+        }
+      })
+
+    </script>
+
+</body>
+</html>

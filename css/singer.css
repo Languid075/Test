@@ -1,0 +1,166 @@
+.main{
+    width: 980px;
+    height: 1280px;   
+    border: 2px solid #d9d9d9;
+	margin: auto;  
+}
+
+.main-left{
+    float: left;
+    width: 180px;
+    height: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #dcdcdc;
+    border-left: none;
+}
+.main-left ol{
+    height: 140px;
+    width: 170px;
+    border-bottom: 1px solid #d3d3d3;
+    margin: 0 auto;
+}
+.main-left ol h3{
+    font-weight: 700;
+    color: #333333;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.main-left ol:nth-child(1) h3{
+    margin-top: 50px;
+}
+.main-left ol li{
+    font-size: 12px;
+    margin-left: 40px;
+    padding: 3px;
+    list-style:square;
+    height: 25px;
+    color: #333333;
+}
+.main-left ol li:nth-child(1){
+    color: #c20c0c;
+}
+.main-left ol>li:hover{
+    text-decoration: underline;
+}
+.main-left ol strong{
+    width: 160px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #dcdcdc;
+    line-height: 20px;
+    z-index: 9999;
+}
+
+
+
+
+.main-right{
+    float: left;
+    width: 795px;
+    height: 100%;
+    background-color: #ffffff;
+}
+.main-right-1{
+    width: 700px;
+    height: 97%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.main-right dd{
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #c20c0c;
+  margin-top: 30px;
+
+}
+.main-right dd h3{
+  font-weight: normal;
+  float: left;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.main-right dd strong{
+  float: right;
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+.main-right dd strong:hover {
+  text-decoration: underline;
+}
+.rzgs{
+    width: 100%;
+    height: 360px;
+}
+.rzgs ul li{
+    width: 130px;
+    height: 155px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.rzgs ul li:nth-child(1){
+    margin-left: 0px;
+}
+.rzgs ul li:nth-child(6){
+    margin-left: 0px;
+}
+.rzgs ul li a{
+    color: #000000;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.rzgs ul li a:hover{
+    text-decoration: underline;
+}
+.rzgs ul li span{
+    font-family: 'icomoon';
+    float: right;
+    color: #db1c21;
+    margin-top: 5px;
+}
+
+.gsmz{
+    float: left;
+    width: 100%;
+    height: 380px;
+}
+.gsmz ul{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    border-top: 1px dotted #999999;
+}
+.gsmz ul li{
+    width: 138px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.gsmz ul li a{
+    float: left;
+    color: #000000;
+    font-size: 12px;
+}
+.gsmz ul li a:hover{
+    text-decoration: underline;
+}
+.gsmz ul li span{
+    font-family: 'icomoon';
+    color: #db1c21;
+    margin-top: 3px;
+    float: left;
+    margin-left: 2px;
+}
+
+
+
+
+
+
+
